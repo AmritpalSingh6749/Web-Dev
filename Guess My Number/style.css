@@ -1,0 +1,72 @@
+.body{
+    color: wheat;
+    background-color: black;
+    height: 98vh;
+    overflow: scroll;
+}
+div, section{
+    margin: 10px;
+    padding: 10px;
+}
+.top h1{
+    font-size: 75px ;
+    text-align: center;
+}
+.top .again{
+    padding: 10px 20px;
+    width: 8%;
+    font-size: 17px;
+    font-weight: bold;
+}
+.top p{
+    width:15%;
+    float:right;
+    font-size: 16px;
+}
+.secret{
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid white;
+    line-height: 0.01em;
+    margin: 20px 0 20px;
+    font-size: 50px;
+}
+.sp{
+    border: 1px solid white;
+    background-color: black;
+    padding: 5px 40px;
+
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+.bottom .getNum, .scoreBoard{
+    flex: 1;
+}
+.getNum{
+    display: flex;
+    flex-direction: column;
+}
+.guess{
+    flex: 5;
+    width: 25%;
+    align-self: center;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.check{
+    flex: 2;
+    width: 15%;
+    margin-top: 5px;
+    align-self: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+.scoreBoard{
+    text-align: center;
+    font-size: 20px;
+}
+
